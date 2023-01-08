@@ -1,0 +1,217 @@
+/* headers styles */
+.header{
+    background: url('../images/banner/banner3.png');
+    background-position: top;
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 808px;
+    margin-top: 0px;
+}
+.header-content-position {
+    /* margin: 216px 230px 364px 845px; */
+    margin-right: 230px;
+    margin-bottom: 364px;
+    margin-left: 845px;
+}
+.header-content-position button{
+    margin-left: 353px;
+    margin-bottom: 166px;
+}
+
+
+.btn{
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    text-align: right;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    border-color: #FFFFFF;
+}
+
+.header-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: right;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.header-title{
+    width: 525px;
+    height: 228px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+/* section styles */
+.last-year{
+    display: flex;
+    gap: 87px;
+    margin-top: 231px;
+    margin-right: 322px;
+    margin-left: 206px;
+}
+.my-image{
+    width: 569px;
+    height: 723.3px;
+}
+
+.last-year-me{
+    margin-top: 160px;
+    width: 416px;
+    height: 400px;
+    left: 862px;
+    top: 1178px;
+    
+}
+.last-year-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.last-year-detail{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.last-year-list{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    list-style: none;
+    
+}
+.last-year-list li:before {
+    content: "\f00c"; 
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.8em; /* same as padding-left set on li */
+    width: 1.3em
+   }
+
+.my-plans h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    text-align: center;
+    margin-top: 129px;
+    margin-bottom: 50px;
+}
+.resolutions{
+    display: flex;
+    gap: 120px;
+    margin-left: 230px;
+    margin-right: 230px;
+    
+}
+.back-grad{
+    width: 1140px;
+    height: 300px;
+    margin-left: 230px;
+    margin-top: 130px;
+    /* margin: 130px, 230px; */
+    border-radius: 8px;
+    /* background-image: url(../images/watch.png); */
+    /* background-image: linear-gradient(to right, blue,white ); */
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%) , url(../images/watch.png);
+    
+
+}
+.back-body{
+    width: 459px;
+    height: 182px;
+    padding-left: 64px;
+    padding-top: 29px;
+    padding-bottom: 69px;
+
+}
+
+.back-body h5{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.back-body button{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #005FAC;
+    padding: 20px 36px;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 59px;
+}
+
+/* footer styles */
+.footer{
+    margin-top: 130px;
+    background: #151414;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    display: flex;
+    gap: 331px;
+    margin-bottom: 0;
+}
+
+.footer-info{
+    margin-left: 230px;
+    margin-top: 130px;
+}
+
+.footer-info h4{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer-info p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.footer-form{
+    width: 325px;
+    height: 204px;
+    margin-top: 130px;
+    margin-right: 229px;
+}
+.footer-form h6{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+
+}
+.form-button{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 36px;
+    border-color: #005FAC;
+    background: #005FAC;
+    border-radius: 5px;
+    margin-bottom: 59px;
+    
+
+}
