@@ -6,7 +6,7 @@
     top: 0px;
     width: 1600px;
     height: 808px;
-    margin-top: 0px;
+    
 }
 .header-content-position {
     /* margin: 216px 230px 364px 845px; */
@@ -167,7 +167,6 @@
     left: 0px;
     display: flex;
     gap: 331px;
-    margin-bottom: 0;
 }
 
 .footer-info{
